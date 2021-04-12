@@ -1,0 +1,149 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.096);  
+    width:60%;
+    height: auto;
+    margin: auto;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: #1A1A1D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+}
+
+header img{
+    margin:5px;
+}
+
+h6{
+    color: white;
+    padding: 0;
+    margin-bottom: 3px;
+}
+
+.alignCenter{
+    text-align: center;
+}
+
+#section1{
+    background-color: #334D5C;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#section1>div>h2{
+    color: white;
+}
+
+#section1>div>p{
+    color: white;
+}
+
+h1{
+    color:white;
+    font-size: 200%;
+}
+
+#section1 section{
+    padding-top: 20px;
+}
+
+section:nth-child(3){
+    padding-top: 20px;
+}
+
+section:nth-child(4){
+    padding-top: 20px;
+}
+
+h2{
+    background-color:#334D5C;
+    display: inline;
+    width:max-content;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    transform: origin 50%;;
+    left: 50%;
+}
+
+
+.organiseur{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.organiseur>div{
+    margin: 10px;
+}
+
+.organiseur p{
+    margin-top: 70px;
+}
+
+.organiseur2{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #EAE3D6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.miniBloc{
+    text-align: center;
+}
+
+.miniBloc img{
+    max-width: 25%;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #1A1A1D;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tiers{
+    width: 30%;
+}
+
+.orgaFtr{
+    max-width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.orgaFtr img{
+    max-width: 30%;
+}
+
+h5{
+    color: white;
+}
+
+
+
+
